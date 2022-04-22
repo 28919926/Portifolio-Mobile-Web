@@ -1,0 +1,23 @@
+{
+  "name": "portifolio-mobile-web",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/28919926/Portifolio-Mobile-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/28919926/Portifolio-Mobile-Web/issues"
+  },
+  "homepage": "https://github.com/28919926/Portifolio-Mobile-Web#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  }
+}
