@@ -4,67 +4,57 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  
   position: absolute;
   width: 100px;
   height: 40px;
   left: 12px;
   top: calc(50% - 40px/2);
-  color:  #6070FF;
+  color: #6070ff;
+}
 
-
-  
- }
-
- .nav {
+.nav {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 20px;
-  
   position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
   top: calc(50% - 40px/2);
-  color:  #6070FF;
+  color: #6070ff;
+}
 
- }
- header {
-   display: flex;
+header {
+  display: flex;
   position: absolute;
- left: 0px;
-  right: 0px;
- top: 44px;
- bottom: 0px;
- height: 44px;
-width: 530px;
-left: 0px;
-top: 44px;
-border-radius: 0px;
-
-
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  height: 44px;
+  width: 530px;
+  left: 0;
+  top: 44px;
+  border-radius: 0;
 }
 
 body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  border: 2px solid #EBEBFF;
+  left: 0;
+  top: 0;
+  border: 2px solid #ebebff;
   height: 721.4596557617188px;
   width: 1397.3985595703125px;
   top: 119;
-background: #FFFFFF;
-background-image: url(images/header-shapes\ mobile.png);height: 680px;width: 530px;
-
-
-border-radius: 0px;
-background-repeat: no-repeat;
-
-
-
+  background: #fff;
+  background-image: url(images/header-shapes\ mobile.png);
+  height: 680px;
+  width: 530px;
+  border-radius: 0;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -72,42 +62,40 @@ h1 {
   padding-top: 100px;
 }
 
-h5{
- 
-position: static;
-width: 327px;
-height: 146px;
-left: 24px;
-top: 276px;
+h5 {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
 
-/* Body / 2 */
+  /* Body / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 150;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 150;
+  font-size: 16px;
+  line-height: 24px;
 
-
-/* Neutrals/N600 */
-
-color: #344563;
+  /* or 150% */
 
 
-/* Inside auto layout */
+  /* Neutrals/N600 */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 12px 0px;
+  color: #344563;
 
-height: 146px;
-width: 327px;
-left: 24px;
-top: 276px;
-border-radius: nullpx;
 
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  border-radius: nullpx;
 }
 
 .about {
@@ -116,23 +104,23 @@ border-radius: nullpx;
 }
 
 .conect {
-  color: #7F8CFF;
+  color: #7f8cff;
   padding-left: 65px;
 }
 
 .icons {
   position: static;
-width: 170.17px;
-height: 20px;
-left: 24px;
-top: 470px;
+  width: 170.17px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
 
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 3;
-flex-grow: 0;
-margin: 12px 0px;
-padding-left: 70px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0;
+  padding-left: 70px;
 }
