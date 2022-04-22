@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&family=Roboto:wght@300;400;700&display=swap');
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -38,8 +40,6 @@ header {
 
 body {
   position: absolute;
-  width: 375px;
-  height: 718px;
   left: 0;
   border: 2px solid #ebebff;
   height: 721.4596557617188px;
@@ -58,9 +58,9 @@ h1 {
 
 h5 {
   position: static;
+
   /* Body / 2 */
 
-  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 150;
   font-size: 16px;
@@ -99,6 +99,7 @@ h5 {
   height: 20px;
   left: 24px;
   top: 470px;
+
   /* Inside auto layout */
 
   flex: none;
