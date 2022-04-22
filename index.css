@@ -8,7 +8,7 @@
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
   color: #6070ff;
 }
 
@@ -21,7 +21,7 @@
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
   color: #6070ff;
 }
 
@@ -30,11 +30,9 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  top: 44px;
   bottom: 0;
   height: 44px;
   width: 530px;
-  left: 0;
   top: 44px;
   border-radius: 0;
 }
@@ -44,15 +42,12 @@ body {
   width: 375px;
   height: 718px;
   left: 0;
-  top: 0;
   border: 2px solid #ebebff;
   height: 721.4596557617188px;
   width: 1397.3985595703125px;
   top: 119;
   background: #fff;
   background-image: url(images/header-shapes\ mobile.png);
-  height: 680px;
-  width: 530px;
   border-radius: 0;
   background-repeat: no-repeat;
 }
