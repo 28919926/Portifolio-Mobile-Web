@@ -1,110 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&family=Roboto:wght@300;400;700&display=swap');
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  position: absolute;
-  width: 100px;
-  height: 40px;
-  left: 12px;
-  top: calc(50% - 40px / 2);
-  color: #6070ff;
+.full-wrapper {
+background-color:  #FFFFFF;
+position: absolute;
+width: 375px;
+height: 718px;
+left: 0px;
+top: 0px;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px;
+.full-wrapper > .imgs {
+  background-color: #fff;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 40px / 2);
-  color: #6070ff;
-}
-
-header {
-  display: flex;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  width: 375px;
   height: 44px;
-  width: 530px;
-  top: 44px;
-  border-radius: 0;
+  left: calc(50% - 375px/2);
+  top: 0px;
+  }
+
+.nav-wrapp {
+background-color: #fff;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 92px;
+width: 390px;
+left: 0px;
+top: 44px;
+bottom: 0px;
+margin-left: 20px;
+
 }
 
-body {
-  position: absolute;
-  left: 0;
-  border: 2px solid #ebebff;
-  height: 721.4596557617188px;
-  width: 1397.3985595703125px;
-  top: 119;
-  background: #fff;
-  background-image: url(images/header-shapes\ mobile.png);
-  border-radius: 0;
-  background-repeat: no-repeat;
+.nav-wrapp > .logo {
+color:  #6070FF;
+position: static;
+width: 76px;
+height: 20px;
+left: 12px;
+top: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+
 }
 
-h1 {
-  padding: 95px;
-  padding-top: 100px;
+.nav-wrapp > .right-nav {
+position: static;
+width: 76px;
+height: 20px;
+right: 25px;
+top: 10px;
+color: #6070FF;
+left: 20%;
+bottom: 20%;
 }
 
-h5 {
-  position: static;
 
-  /* Body / 2 */
 
-  font-style: normal;
-  font-weight: 150;
-  font-size: 16px;
-  line-height: 24px;
+ .content-wrapper {
+ background-color: #fff;
+background-image: url(images/header-shapes\ mobile.png);
+align-items: flex-start;
+padding: 114px 24px;
+position: absolute;
+width: 375px;
+height: 604px;
+left: calc(50% - 375px/2);
+top: 92px;
+ }
 
-  /* Neutrals/N600 */
+.content-wrapper > .header {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
 
-  color: #344563;
+display: flex;
+align-items: center;
+color: #172B4D;
 
-  /* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0;
-  height: 146px;
-  width: 327px;
-  left: 24px;
-  top: 276px;
-  border-radius: nullpx;
+position: static;
+width: 327px;
+height: 150px;
+left: 24px;
+top: 114px;
 }
 
-.about {
-  padding-left: 75px;
-  padding-top: -80px;
+.content-wrapper > .about {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+position: static;
+width: 327px;
+height: 146px;
+left: 24px;
+top: 276px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 12px 0px;
+color: #344563;
 }
 
-.conect {
-  color: #7f8cff;
-  padding-left: 65px;
+.content-wrapper > .connect {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 8px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: -5px;
 }
 
-.icons {
-  position: static;
-  width: 170.17px;
-  height: 20px;
-  left: 24px;
-  top: 470px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  margin: 12px 0;
-  padding-left: 70px;
+.content-wrapper > .socialmedia-icons > ul {
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 12px 0px;
+list-style-type: none;
+position: static;
+width: 170.17px;
+height: 20px;
+left: 24px;
+top: 470px;
+display: inline-flex;
+justify-content: space-around;
+margin-left: -55px;
 }
