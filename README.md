@@ -1,56 +1,23 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
 
-> Description the project.
+# Mobile web Skeleton Portfolio
+
+> This is my second project at microverse and its about making a skeleton of a mobile portfolio for
+  web developer.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- HTML
+- CSS
 
 ## Authors
 
-👤 **Author1**
+👤 **Desmond Wanjala**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/28919926/Portifolio-Mobile-Web/pull/1)
+- Twitter: [@twitterhandle](https://twitter.com/@wanjala_desmond)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/wanjala-desmond-000927b6/)
 
 ## 🤝 Contributing
 
@@ -64,10 +31,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- My family for the support they have been giving me.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is not licensed.
