@@ -869,3 +869,25 @@ margin: 12px 0px;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+.about-wrapper > .language-icons > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 327px;
+  height: 320.15px;
+  left: 0px;
+  top: 0px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  list-style-type: none;
+}
