@@ -1,6 +1,6 @@
 
 
-# Mobile web Skeleton Portfolio
+# Mobile web Portfolio
 
 > This is my second project at microverse and its about making a skeleton of a mobile portfolio for
   web developer.
