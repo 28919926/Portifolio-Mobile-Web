@@ -216,16 +216,18 @@ a {
   margin-top: -15px;
 }
 
-.work-container .frame {
+.work-container > .CANOPY > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
+  padding: 0;
   position: static;
-  width: 286px;
+  width: 236px;
   height: 32px;
   left: 0;
   top: 48px;
+  justify-content: space-between;
+  color: #7a869a;
   flex: none;
   flex-grow: 0;
   margin: 12px 0;
@@ -353,20 +355,21 @@ a {
   color: #344563;
 }
 
-.work-container1 > .frame-1 {
+.work-container1 > .CANOPY > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px;
+  padding: 0;
   position: static;
-  width: 286px;
+  width: 236px;
   height: 32px;
   left: 0;
   top: 48px;
+  justify-content: space-between;
+  color: #7a869a;
   flex: none;
   flex-grow: 0;
   margin: 12px 0;
-  margin-left: -5px;
 }
 
 .work-container1 > .work-language-1 > ul {
@@ -383,6 +386,13 @@ a {
   list-style-type: none;
   margin: 12px 90px -40px 0;
   justify-content: space-between;
+}
+
+.button {
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  border-style: none;
 }
 
 .work-container1 > .button-2 {
@@ -430,16 +440,18 @@ a {
   margin: 88px 0;
 }
 
-.work-container2 > .frame-2 {
+.work-container2 > .CANOPY > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
+  padding: 0;
   position: static;
-  width: 286px;
+  width: 236px;
   height: 32px;
   left: 0;
   top: 48px;
+  justify-content: space-between;
+  color: #7a869a;
   flex: none;
   flex-grow: 0;
   margin: 12px 0;
@@ -571,20 +583,21 @@ a {
   color: #344563;
 }
 
-.work-container3 > .frame-3 {
+.work-container3 > .CANOPY > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px;
+  padding: 0;
   position: static;
-  width: 286px;
+  width: 236px;
   height: 32px;
   left: 0;
   top: 48px;
+  justify-content: space-between;
+  color: #7a869a;
   flex: none;
   flex-grow: 0;
   margin: 12px 0;
-  margin-left: -5px;
 }
 
 .work-container3 > .work-language-3 > ul {
